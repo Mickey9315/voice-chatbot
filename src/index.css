@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Major+Mono+Display&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    @apply font-mono;
+    @apply bg-light;
+    @apply text-dark;
+  }
+
+  body {
+    @apply text-sm;
+  }
+
+  a {
+    @apply underline;
+    @apply underline-offset-2;
+    @apply cursor-pointer;
+  }
+
+  code {
+    @apply text-accent2;
+  }
+}
